@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music-Player</title>
+	<link rel="stylesheet" type="text/css" href="homepagemajorstyle.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+      <!-- starting of navigation menu -->
+      <nav class="nav-section">
+      	<section class="section-1">
+      		<div class="logo-container">
+      			<div class="logo-img-box">
+      				<img src="media/website-logo1.png">
+      			</div>
+      			<div id="app-name">
+      				<h4>MUSIC</h4>
+      				<h3>STUDIO</h3>
+      			</div>
+      		</div>
+
+      		<div class="fav">
+      			<p>Favourites</p>
+      		</div>
+
+      	</section>
+
+      	<section class="section-2">
+      		<div class="search-bar">
+                    <form>
+                    	<button type="button" id="glass"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    	<input type="text" name="serch" placeholder="search..">
+                    	<button type="button" id="mic"><i class="fa-sharp fa-solid fa-microphone"></i></button>
+                    </form>
+      		</div>
+
+      		<div class="notification-bell">
+      			<i class="fa-solid fa-bell fa-xl"></i>
+      		</div>
+
+      		<div class="profile-pic">
+      		      <i class="fa-brands fa-spotify fa-xl"></i>
+      		</div>
+
+      		
+      	</section>
+      	
+      </nav>
+
+      <main>
+      	<aside class="aside-1">
+      		<section class="home-carousel">
+      			<img src="media/crousel/carousel1.png" class="one">
+      			<img src="media/crousel/carousel2.png" class="two">
+      			<img src="media/crousel/carousel3.png" class="three">
+      		</section>
+
+      		<section class="latest-release">
+      			<div class="section-heading">
+                      <p>Latest Releases</p>
+      			</div>
+
+      			<div class="latest-songs-container">
+      				<div class="songs-container">
+      					<div class="songs-img-container">
+      						<img src="media/songs/intentions.png">
+      					    <i class="fa-solid fa-circle-play"></i>
+      					</div>
+      					<div class="song-desc">
+      						<p>Onism</p>
+      						<p>AUG,2011</p>
+      					</div>
+
+      			     	<div class="pointer">
+      						<input type="checkbox">
+      						<div class="menu-lines">
+      							<span class="line line1"></span>
+      							<span class="line line2"></span>
+      							<span class="line line3"></span>
+      							
+      						</div>
+      						<div class="menu-box">
+      							<div class=menu-content>
+      								<span><i class="fa-solid fa-circle-play play-button"></i>Play now</span>
+      								<span> <i class="fa-regular fa-heart fav-button"></i>Add To Favourites</span>
+      								<span><i class="fa-solid fa-circle-play queue-button"></i> Add To Queue</span>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+
+      				<div class="songs-container">
+      					<div class="songs-img-container">
+      						<img src="media/songs/monster.png">
+      					    <i class="fa-solid fa-circle-play"></i>
+      					</div>
+
+      					<div class="song-desc">
+      						<p>Fida</p>
+      						<p>AUG,2011</p>
+      					</div>
+
+      					<div class="pointer">
+      						<input type="checkbox">
+      						<div class="menu-lines">
+      							<span class="line line1"></span>
+      							<span class="line line2"></span>
+      							<span class="line line3"></span>
+      							
+      						</div>
+      						<div class="menu-box">
+      							<div class=menu-content>
+      								<span><i class="fa-solid fa-circle-play play-button"></i>Play now</span>
+      								<span> <i class="fa-regular fa-heart fav-button"></i>Add To Favourites</span>
+      								<span><i class="fa-solid fa-circle-play queue-button"></i> Add To Queue</span>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+
+      				<div class="songs-container">
+      					<div class="songs-img-container">
+      						<img src="media/songs/perfect.png">
+      					    <i class="fa-solid fa-circle-play"></i>
+      					</div>
+      					<div class="song-desc">
+      						<p>Onism</p>
+      						<p>AUG,2011</p>
+      					</div>
+
+      					<div class="pointer">
+      						<input type="checkbox">
+      						<div class="menu-lines">
+      							<span class="line line1"></span>
+      							<span class="line line2"></span>
+      							<span class="line line3"></span>
+      							
+      						</div>
+      						<div class="menu-box">
+      							<div class=menu-content>
+      								<span><i class="fa-solid fa-circle-play play-button"></i>Play now</span>
+      								<span> <i class="fa-regular fa-heart fav-button"></i>Add To Favourites</span>
+      								<span><i class="fa-solid fa-circle-play queue-button"></i> Add To Queue</span>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+
+      				<div class="songs-container">
+      					<div class="songs-img-container">
+      						<img src="media/songs/savage love.png">
+                            <i class="fa-solid fa-circle-play"></i>
+      					</div>
+      					<div class="song-desc">
+      						<p>Onism</p>
+      						<p>AUG,2011</p>
+      					</div>
+
+      					<div class="pointer">
+      						<input type="checkbox">
+      						<div class="menu-lines">
+      							<span class="line line1"></span>
+      							<span class="line line2"></span>
+      							<span class="line line3"></span>
+
+      						</div>
+      						<div class="menu-box">
+      							<div class=menu-content>
+      								<span><i class="fa-solid fa-circle-play play-button"></i>Play now</span>
+      								<span> <i class="fa-regular fa-heart fav-button"></i>Add To Favourites</span>
+      								<span><i class="fa-solid fa-circle-play queue-button"></i> Add To Queue</span>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      			
+      		</section>
+
+      		<section class="popular-artists">
+      			<div class="section-heading">
+      				Popular Artists
+      			</div>
+
+      			<div class="artists-section">
+      				<div class="artists-img-container songs-img-container">
+      					<img src="media/popular artists/arijit.jpg">
+      					 <i class="fa-solid fa-circle-play"></i>
+      				</div>
+
+      				<div class="artists-img-container songs-img-container">
+      					<img src="media/popular artists/badshah.jpg">
+      					 <i class="fa-solid fa-circle-play"></i>
+      				</div>
+
+      				<div class="artists-img-container songs-img-container">
+      					<img src="media/popular artists/coldplay.png">
+      					 <i class="fa-solid fa-circle-play"></i>
+      				</div>
+
+      				<div class="artists-img-container songs-img-container">
+      					<img src="media/popular artists/ed.jpg">
+      					 <i class="fa-solid fa-circle-play"></i>
+      				</div>
+
+      				<div class="artists-img-container songs-img-container" >
+      					<img src="media/popular artists/jbalvin.jpg">
+      					<i class="fa-solid fa-circle-play"></i>
+      				</div>
+
+      				<div class="artists-img-container songs-img-container">
+      					<img src="media/popular artists/selena.jpg">
+      					<i class="fa-solid fa-circle-play"></i>
+      				</div>
+      			</div>
+      			
+      		</section>
+
+      		<section class="music-type-1">
+      			<div class="genre-container">
+      				<img src="media/music themes/chill.png">
+      				<p>Chill</p>
+      			</div>
+      			<div class="genre-container">
+      				<img src="media/music themes/love.png">
+      				<p>Love</p>
+      			</div>
+      			<div class="genre-container">
+      				<img src="media/music themes/pop.png">
+      				<p>Pop</p>
+      			</div>
+      			<div class="genre-container">
+      				<img src="media/music themes/road.png">
+      				<p>Road</p>
+      			</div>
+      			<div class="genre-container">
+      				<img src="media/music themes/retro.jpg">
+      				<p>Retro</p>
+      			</div>
+      			<div class="genre-container">
+      				<img src="media/music themes/rock.jpg">
+      				<p>Rock</p>
+      			</div>
+      			<div class="genre-container">
+      				<img src="media/music themes/workout.png">
+      				<p>Workout</p>
+      			</div>
+      		</section>
+
+
+      		<section class="music-type-2">
+      			<div class="type-2-box">
+      				<img src="media/music themes 2/electronic.jpg">
+      				<p>Electronic</p>
+      			</div>
+
+      			<div class="type-2-box">
+      				<img src="media/music themes 2/party.jpg">
+      				<p>Party</p>
+      			</div>
+
+      			<div class="type-2-box">
+      				<img src="media/music themes 2/road.png">
+      				<p>Road</p>
+      			</div>
+      			
+      		</section>
+
+      		<section class="latest-english">
+      			<div class="section-heading">
+      				Latest Hindi
+      			</div>
+
+      			<div class="latest-container">
+      				<div class="latest-music-box">
+      					<img src="media/latest hindi/7.jpg">
+      					<p class="latest-name">Tamasa,3:23</p>
+      				</div>
+
+      				<div class="latest-music-box">
+      					<img src="media/latest hindi/8.jpg">
+                        <p class="latest-name">Sanak,4:00</p>
+      				</div>
+
+      				<div class="latest-music-box">
+      					<img src="media/latest hindi/9.jpg">
+                        <p class="latest-name">Dilbar,3:10</p>
+      				</div>
+
+      				<div class="latest-music-box">
+      					<img src="media/latest hindi/10.jpg">
+                         <p class="latest-name">Khaab,4:25</p>
+                         <!-- <audio controls>
+                         	<source src="media/latest hindi/song.mp3" type="">
+                         </audio> -->
+      				</div>
+
+      				<div class="latest-music-box">
+      					<img src="media/latest hindi/15.jpg">
+                        <p class="latest-name">Loot Gaye,5:00</p>
+      				</div>
+
+      				<div class="latest-music-box">
+      					<img src="media/latest hindi/18.jpg">
+                        <p class="latest-name">Pasoori,3:32</p>
+      				</div>
+      			</div>
+      			
+      		</section>
+
+      		
+      		
+      	</aside>
+
+      	<aside class="aside-2">
+      		<section class="section-heading">Queue</section>
+      		<div class="queue-container">
+      			<div class="songs-bars">
+      				<span class="numberings">01</span>
+      				<div class="micro-pic">
+      					<img src="media/playlist/imagine.png">
+      				</div>
+      				<div class="sng-name">
+      					<p>Imagine,3:12<i class="fa-regular fa-heart onee"></i></p>
+      					
+      				</div>
+
+
+
+      			</div>
+
+      			<div class="songs-bars">
+      				<span class="numberings">02</span>
+      				<div class="micro-pic">
+      					<img src="media/playlist/mirage1.jpg">
+
+      				</div>
+      				<div class="sng-name">
+      					<p>Mirage,2:23<i class="fa-regular fa-heart twoo"></i></p>
+      					
+      				</div>
+      				
+      			</div>
+
+      			<div class="songs-bars">
+      				<span class="numberings">03</span>
+      				<div class="micro-pic">
+      					<img src="media/latest hindi/10.jpg">
+      				</div>
+      				<div class="sng-name">
+      					<p>Duniya,4:20<i class="fa-regular fa-heart threee"></i></p>
+      					
+      				</div>
+      			</div>
+
+
+      			<div class="songs-bars">
+      				<span class="numberings">04</span>
+      				<div class="micro-pic">
+      					<img src="media/playlist/worryboutus.png">
+      				</div>
+      				<div class="sng-name">
+      					<p>Worry,3:34<i class="fa-regular fa-heart fourr"></i></p>
+      					
+      				</div>
+      			</div>
+
+
+      			<div class="songs-bars">
+      				<span class="numberings">05</span>
+      				<div class="micro-pic">
+      					<img src="media/latest hindi/18.jpg">
+      				</div>
+      				<div class="sng-name">
+      					<p>Pasoori,3:23<i class="fa-regular fa-heart fivee"></i></p>
+      					
+      				</div>
+      			</div>
+
+
+      			<div class="songs-bars">
+      				<span class="numberings">06</span>
+      				<div class="micro-pic">
+      					<img src="media/latest hindi/8.jpg">
+      					
+      				</div>
+      				<div class="sng-name">
+      					<p>Jaan,3:16<i class="fa-regular fa-heart sixx"></i></p>
+      					
+      				</div>
+      			</div>
+
+
+      			<div class="songs-bars">
+      				<span class="numberings">07</span>
+      				<div class="micro-pic">
+      					<img src="media/latest hindi/9.jpg">
+      				</div>
+      				<div class="sng-name">
+      					<p>Dilbar,3:56<i class="fa-regular fa-heart sevenn"></i></p>
+      					
+      				</div>
+      			</div>
+      			
+      		</div>
+      	</aside>
+
+      	 <footer id="music_player">
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="media/playlist/imagine.png">
+            </div>
+            <!-- song name and author -->
+            <div class="song-desc">
+                <div>
+                    Imagine by John
+                </div>
+                <div>
+                    John Lenon
+                </div>
+                <!-- heart icon and ban icon -->
+            </div>
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- these are the main player controls -->
+        <div class="player">
+            <div class="controls">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="fas fa-pause-circle"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                    0.01
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- total time -->
+                <div class="time">
+                    4:44
+                </div>
+            </div>
+        </div>
+        <!-- other icons including the volume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+      </main>
+	
+
+</body>
+</html>
